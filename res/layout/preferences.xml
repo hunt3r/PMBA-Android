@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+		<PreferenceCategory
+                android:title="Login Information">
+                <EditTextPreference
+                android:name="Username"
+                android:summary="Enter Your Username"
+                android:defaultValue=""
+                android:title="Username"
+                android:key="usernamePref" />
+                <EditTextPreference
+                android:name="Password"
+                android:summary="Enter Your password"
+                android:defaultValue=""
+                android:title="Password"
+                android:key="passwordPref" 
+                android:password="true"/>
+                
+                
+        </PreferenceCategory>
+        <PreferenceCategory
+                android:title="Application Settings">
+                <CheckBoxPreference
+                        android:title="Continuously Update"
+                        android:defaultValue="false"
+                        android:summary="Should the application periodically check for updates and notify you?"
+                        android:key="continuousUpdatePref" />
+        </PreferenceCategory>
+</PreferenceScreen>

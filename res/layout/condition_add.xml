@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+	<EditText
+	        android:id="@+id/txt_title"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:hint="Enter a brief title"
+	        android:layout_marginRight="10px"
+		    android:layout_marginLeft="10px"
+		    android:layout_marginTop="10px"/>
+	<RadioGroup android:id="@+id/rad_cond"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:layout_marginRight="10px"
+	    android:layout_marginLeft="10px"
+	    android:layout_marginTop="10px">
+      <RadioButton android:id="@+id/rad_cond_good"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Good" />
+      <RadioButton android:id="@+id/rad_cond_fair"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Fair" />
+      <RadioButton android:id="@+id/rad_cond_poor"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Poor" />
+    </RadioGroup>
+    <EditText
+		android:id="@+id/txt_body"
+		android:layout_width="fill_parent"
+		android:lines="5"
+		android:layout_height="wrap_content"
+		android:hint="Describe the trail conditions in some detail if possible"
+		android:layout_marginRight="10px"
+    android:layout_marginLeft="10px"
+    android:layout_marginTop="10px"/>
+	<Button
+			android:id="@+id/btn_add_cond_submit"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Submit"
+			android:layout_marginRight="10px"
+    android:layout_marginLeft="10px"
+    android:layout_marginTop="10px" />
+			
+</LinearLayout>

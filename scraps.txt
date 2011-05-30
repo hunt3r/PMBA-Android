@@ -1,0 +1,399 @@
+5e653ae31c04b284a23619fcf12c4ee3
+<resources>
+    <string name="welcome">Welcome to PMBA</string>
+    <string name="app_name">PMBA</string>
+    <string name="sharedpreferences_name">UserAuthPMBA</string>
+    <string name="SERVER">http://www.bike-temple.org:8080/services/json</string>
+    <string name="API_KEY">358050d908babec6fc6bae3353192e64</string>
+    <string name="DOMAIN">mobile.bike-temple.org</string>
+    <string name="ALGORITHM">HmacSHA256</string>
+    <string name="SESSION.LIFETIME">30</string>
+    <string name="new_trail_update">New Trail Update</string>
+    <string name="quit">Quit PMBA</string>
+</resources>
+
+<resources>
+    <string name="welcome">Welcome to PMBA</string>
+    <string name="app_name">PMBA Application</string>
+    <string name="sharedpreferences_name">UserAuth</string>
+    <string name="SERVER">http://greatbrewers.com/services/json</string>
+    <string name="API_KEY">1e854ea173f553ac940f6183d61e01f8</string>
+    <string name="DOMAIN">iphone.greatbrewers.com</string>
+    <string name="ALGORITHM">HmacSHA256</string>
+    <string name="SESSION.LIFETIME">1209600</string>
+    <string name="new_trail_update">New Trail Update</string>
+    <string name="quit">Quit PMBA</string>
+</resources>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome">Welcome to PMBA</string>
+    <string name="app_name">PMBA Application</string>
+    <string name="sharedpreferences_name">UserAuth</string>
+    <string name="SERVER">http://home.chrishunters.com/services/json</string>
+    <string name="API_KEY">5e653ae31c04b284a23619fcf12c4ee3</string>
+    <string name="DOMAIN">home.chrishunters.com</string>
+    <string name="ALGORITHM">HmacSHA256</string>
+    <string name="SESSION.LIFETIME">1209600</string>
+    <string name="new_trail_update">New Trail Update</string>
+    <string name="quit">Quit PMBA</string>
+</resources>
+
+<resources>
+    <string name="welcome">Welcome to PMBA</string>
+    <string name="app_name">PMBA</string>
+    <string name="sharedpreferences_name">PMBAAUTH</string>
+    <string name="SERVER">http://dev.phillymtb.org:8080/?q=services/json</string>
+    <string name="API_KEY">cdfc765c7a59b0a320e8a9aed2282139</string>
+    <string name="DOMAIN">www.phillymtb.org</string>
+    <string name="ALGORITHM">HmacSHA256</string>
+    <string name="SESSION.LIFETIME">30</string>
+    
+    <string name="new_trail_update">New Trail Update</string>
+    <string name="quit">Quit PMBA</string>
+</resources>
+
+<resources>
+    <string name="welcome">Welcome to PMBA</string>
+    <string name="app_name">PMBA</string>
+    <string name="sharedpreferences_name">UserAuth</string>
+    <string name="SERVER">http://dev.phillymtb.org:8080/?q=services/json</string>
+    <string name="API_KEY">d8b481d324e842f72f512223c21e2b14</string>
+    <string name="DOMAIN">dev.phillymtb.org</string>
+    <string name="ALGORITHM">HmacSHA256</string>
+    <string name="SESSION.LIFETIME">600</string>
+    
+    <string name="new_trail_update">New Trail Update</string>
+    <string name="quit">Quit PMBA</string>
+</resources>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome">Welcome to PMBA</string>
+    <string name="app_name">PMBA</string>
+    <string name="sharedpreferences_name">UserAuth</string>
+    <string name="SERVER">http://www.phillymtb.org:8080/services/json</string>
+    <string name="API_KEY">f7ef92aadf366f24511ce4d5b729b39a</string>
+    <string name="DOMAIN">www.phillymtb.org</string>
+    <string name="ALGORITHM">HmacSHA256</string>
+    <string name="SESSION.LIFETIME">1209600</string>
+    <string name="new_trail_update">New Trail Update</string>
+    <string name="quit">Quit PMBA</string>
+</resources>
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome">Welcome to PMBA</string>
+    <string name="app_name">PMBA</string>
+    <string name="sharedpreferences_name">UserAuthNEW</string>
+    <string name="SERVER">http://www.bike-temple.org:8080/?q=services/json</string>
+    <string name="API_KEY">358050d908babec6fc6bae3353192e64</string>
+    <string name="DOMAIN">mobile.bike-temple.org</string>
+    <string name="ALGORITHM">HmacSHA256</string>
+    <string name="SESSION.LIFETIME">30</string>
+    
+    <string name="new_trail_update">New Trail Update</string>
+    <string name="quit">Quit PMBA</string>
+</resources>
+
+
+<resources>
+    <string name="welcome">Welcome to PMBA</string>
+    <string name="app_name">PMBA</string>
+    <string name="sharedpreferences_name">PMBAAUTH</string>
+    <string name="SERVER">http://www.phillymtb.org:8080/?q=services/json</string>
+    <string name="API_KEY">cdfc765c7a59b0a320e8a9aed2282139</string>
+    <string name="DOMAIN">mobile.phillymtb.org</string>
+    <string name="ALGORITHM">HmacSHA256</string>
+    <string name="SESSION.LIFETIME">30</string>
+    
+    <string name="new_trail_update">New Trail Update</string>
+    <string name="quit">Quit PMBA</string>
+</resources>
+
+<resources>
+    <string name="welcome">Welcome to PMBA</string>
+    <string name="app_name">PMBA</string>
+    <string name="sharedpreferences_name">PMBAAUTHNEW</string>
+    <string name="SERVER">http://10.0.2.2:8080/?q=services/json</string>
+    <string name="API_KEY">ba2e598c1e54e0da730f2a351927e53d</string>
+    <string name="DOMAIN">www.phillymtb.org</string>
+    <string name="ALGORITHM">HmacSHA256</string>
+    <string name="SESSION.LIFETIME">30</string>
+    
+    <string name="new_trail_update">New Trail Update</string>
+    <string name="quit">Quit PMBA</string>
+</resources>
+
+
+
+
+
+
+
+
+
+
+package com.insready.drupalcloud;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.UnsupportedEncodingException;
+import java.security.InvalidKeyException;
+import java.security.NoSuchAlgorithmException;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+import java.util.Random;
+
+import javax.crypto.Mac;
+import javax.crypto.spec.SecretKeySpec;
+
+import org.apache.commons.codec.binary.Hex;
+import org.apache.http.HttpResponse;
+import org.apache.http.NameValuePair;
+import org.apache.http.client.ClientProtocolException;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.entity.UrlEncodedFormEntity;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.message.BasicNameValuePair;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import android.content.Context;
+import android.content.SharedPreferences;
+
+public class RESTServerClient implements Client {
+/*
+	public HttpPost mSERVER;
+	public static String mAPI_KEY;
+	public static String mDOMAIN;
+	public static String mALGORITHM;
+	public static Long mSESSION_LIFETIME;
+	private HttpClient mClient = new DefaultHttpClient();
+	private List<NameValuePair> mPairs = new ArrayList<NameValuePair>(15);
+	private Context mCtx;
+	private final String mPREFS_AUTH;
+	private com.chrishunters.pmba.Utils u = new com.chrishunters.pmba.Utils();
+
+	/**
+	 * 
+	 * @param _ctx
+	 *            Context
+	 * @param _prefs_auth
+	 *            Preference storage
+	 * @param _server
+	 *            Server address
+	 * @param _api_key
+	 *            API_Key
+	 * @param _domain
+	 *            Domain name
+	 * @param _algorithm
+	 *            Encrypition algorithm
+	 * @param _session_lifetime
+	 *            Session lifetime
+	 */
+	public JSONServerClient(Context _ctx, String _prefs_auth, String _server,
+			String _api_key, String _domain, String _algorithm,
+			Long _session_lifetime) {
+		mPREFS_AUTH = _prefs_auth;
+		mSERVER = new HttpPost(_server);
+		mSERVER.setHeader("User-Agent", "PMBA-Droid-App");
+		mAPI_KEY = _api_key;
+		mDOMAIN = _domain;
+		mALGORITHM = _algorithm;
+		mSESSION_LIFETIME = _session_lifetime;
+		mCtx = _ctx;
+	}
+
+	private String getSessionID() throws ServiceNotAvailableException {
+		SharedPreferences auth = mCtx.getSharedPreferences(mPREFS_AUTH, 0);
+		Long timestamp = auth.getLong("sessionid_timestamp", 0);
+		Long currenttime = new Date().getTime() / 100;
+		String sessionid = auth.getString("sessionid", null);
+		if (sessionid == null || (currenttime - timestamp) >= mSESSION_LIFETIME) {
+			systemConnect();
+			return getSessionID();
+		} else
+			return sessionid;
+	}
+
+
+	/**
+	 * system.connect request for Key Auth
+	 */
+	private void systemConnect() throws ServiceNotAvailableException {
+		// Cloud server hand shake
+		mPairs.add(new BasicNameValuePair("method", u.e("system.connect")));
+		try {
+			mSERVER.setEntity(new UrlEncodedFormEntity(mPairs));
+			HttpResponse response = mClient.execute(mSERVER);
+			InputStream result = response.getEntity().getContent();
+			BufferedReader br = new BufferedReader(new InputStreamReader(result));
+			//String test = "";
+			
+			//while(br.read() != -1)
+			//	test+=br.readLine();
+			
+			JSONObject jso = new JSONObject(br.readLine());
+			boolean error = jso.getBoolean("#error");
+			
+			
+			String data = jso.getString("#data");
+			if (error) {
+				throw new ServiceNotAvailableException(this, data);
+			}
+
+			jso = new JSONObject(data);
+			// Save the sessionid to storage
+			SharedPreferences auth = mCtx.getSharedPreferences(mPREFS_AUTH, 0);
+			SharedPreferences.Editor editor = auth.edit();
+			editor.putString("sessionid", jso.getString("sessid"));
+			editor.putLong("sessionid_timestamp", new Date().getTime() / 100);
+			editor.commit();
+
+		} catch (UnsupportedEncodingException e) {
+			e.printStackTrace();
+		} catch (ClientProtocolException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} catch (JSONException e) {
+			e.printStackTrace();
+		}
+	}
+
+
+	/**
+	 * Generic request
+	 * 
+	 * @param method
+	 *            Request name
+	 * @param parameters
+	 *            Parameters
+	 * @return result string
+	 */
+	public String call(String method, BasicNameValuePair[] parameters)
+			throws ServiceNotAvailableException {
+		
+		//Local variable declarations
+		//Get the session ID
+		String sessid = this.getSessionID();
+		mPairs.clear();
+		String nonce = Integer.toString(new Random().nextInt());
+		Mac hmac;
+		
+		try {
+			//Build the KeyAuth hash
+			hmac = Mac.getInstance(JSONServerClient.mALGORITHM);
+			final Long timestamp = new Date().getTime() / 100;
+			final String time = timestamp.toString();
+			hmac.init(new SecretKeySpec(JSONServerClient.mAPI_KEY.getBytes(),
+					JSONServerClient.mALGORITHM));
+			String message = time + ";" + JSONServerClient.mDOMAIN + ";"
+					+ nonce + ";" + method;
+			hmac.update(message.getBytes());
+			String hmac_value = new String(Hex.encodeHex(hmac.doFinal()));
+			
+			mPairs.add(new BasicNameValuePair("hash", hmac_value));
+			mPairs.add(new BasicNameValuePair("domain_name",
+					JSONServerClient.mDOMAIN));
+			mPairs.add(new BasicNameValuePair("domain_time_stamp", time));
+			mPairs.add(new BasicNameValuePair("nonce", nonce));
+			mPairs.add(new BasicNameValuePair("method", method));
+			mPairs.add(new BasicNameValuePair("api_key",
+					JSONServerClient.mAPI_KEY));
+			mPairs.add(new BasicNameValuePair("sessid", sessid));
+			
+			for (int i = 0; i < parameters.length; i++) {
+				mPairs.add(parameters[i]);
+			}
+			
+			//Add parameters to http post
+			mSERVER.setEntity(new UrlEncodedFormEntity(mPairs));
+			HttpResponse response = mClient.execute(mSERVER);
+			InputStream is = response.getEntity().getContent();
+			BufferedReader br = new BufferedReader(new InputStreamReader(is));
+			String result = br.readLine();
+			
+			JSONObject jso;
+			jso = new JSONObject(result);
+			boolean error = jso.getBoolean("#error");
+			if (error) {
+				throw new ServiceNotAvailableException(this, jso.getString("#data"));
+			}
+			return result;
+
+		} catch (NoSuchAlgorithmException e) {
+			e.printStackTrace();
+		} catch (InvalidKeyException e) {
+			e.printStackTrace();
+		} catch (UnsupportedEncodingException e) {
+			e.printStackTrace();
+		} catch (ClientProtocolException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} catch (JSONException e) {
+			e.printStackTrace();
+			throw new ServiceNotAvailableException("Remote server is not available");
+		}
+		return null;
+	}
+	
+	
+	@Override
+	public int commentSave(String comment) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+	@Override
+	public String commentLoadNodeComments(int nid, int count, int start) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean flagFlag(String flagName, int contentId, int uid,
+			boolean action, boolean skipPermissionCheck) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean flagIsFlagged(String flagName, int contentId, int uid) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public String nodeGet(int nid, String fields) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String userLogin(String username, String password) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String userLogout(String sessionID) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String viewsGet(String viewName, String args) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

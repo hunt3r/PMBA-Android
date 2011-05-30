@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+	<!-- Vertical Layout -->
+	
+	<TableLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent" 
+    android:layout_width="fill_parent"
+    android:background="@drawable/bg_grey">
+    	
+        <TableRow 
+        android:layout_margin="10px">
+	        <Button android:id="@+id/btn_conditions"
+						 android:layout_height="fill_parent"
+						 android:drawableTop="@drawable/trailcond_green_icon_64" 
+						 android:text="Trail Conditions" 
+						 android:layout_width="fill_parent" 
+						android:layout_weight="1"/>
+			<Button android:id="@+id/btn_add_condition"
+						 android:layout_height="fill_parent"
+						 android:drawableTop="@drawable/plus_icon_green" 
+						 android:text="Trail Update" 
+						 android:layout_width="fill_parent" 
+						android:layout_weight="1"/>
+		</TableRow>
+	</TableLayout>
+	
+
+<!--  
+<GridView xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@+id/gridview"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:numColumns="auto_fit"
+    android:verticalSpacing="10dp"
+    android:horizontalSpacing="10dp"
+    android:columnWidth="135dp"
+    android:stretchMode="columnWidth"
+    android:gravity="center"
+/>-->
