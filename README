@@ -1,0 +1,13 @@
+
+# chrishunters.com presents: PMBA Android 
+
+My name is Chris Hunter and I'm a software engineer.  I have been donating my time to the Philadelphia Mountain Biking Association for 5 years now and have built a majority of the phillymtb.org website.  I thought, "it'd be cool if people could more easily get PMBA content on their droid".  We already had a basic iphone interface for trail conditions updates thanks to Kris Molendyke over at www.k20e.com.  Since I have an Android phone, that wasn't going to work so, PMBA Android was born.
+
+## PMBA Android
+
+This is a native android client for the phillymtb.org website.  The goal is to create a compelling mobile application that will consume Drupal web services over REST/JSON.  Currently it supports the viewing and creation of Trail Conditions Update CCK nodes.  
+
+Other goals I'm working towards:
+
+* Viewing, posting of forum topics/comments
+* Shoutbox
