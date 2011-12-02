@@ -11,7 +11,9 @@ import com.insready.drupalcloud.JSONServerClient;
 import com.insready.drupalcloud.ServiceNotAvailableException;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.app.ProgressDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
@@ -50,7 +52,30 @@ public class ConditionAdd extends Activity
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
-        
+		
+		//If the user is not logged in
+		// TODO: DO this globally
+		if(client.user == null) {
+			
+			new AlertDialog.Builder(this)
+	        .setTitle("Invalid Credentials")
+	        .setMessage("Your credentials are invalid, please re-key them")
+	        .setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+
+	            @Override
+	            public void onClick(DialogInterface dialog, int which) {
+	                //Stop the activity
+	                ConditionAdd.this.finish();
+    				Intent i = new Intent(ConditionAdd.this, Preferences.class);
+         	    	startActivity(i);
+	    			
+	            }
+
+	        }).show();
+  
+			
+		}
+		
         setContentView(R.layout.condition_add);
         
         Button btnConditions = (Button) findViewById(R.id.btn_add_cond_submit);
@@ -61,29 +86,14 @@ public class ConditionAdd extends Activity
             public void onClick(final View view) {
             	try {
             		new NodeSaveTask().execute();
-            	} catch(Exception e)
-            	{
+            	} catch(Exception e) {
             		Log.e("POST_NEW_CONDITION", e.toString());
             	}
-            	
-            	
             }
             
         });
         
     }
-    
-    /*
-	    private class DownloadImageTask extends AsyncTask<string, void,="" bitmap=""> {
-	        protected Bitmap doInBackground(String... urls) {
-	            return loadImageFromNetwork(urls[0]);
-	        }
-	
-	        protected void onPostExecute(Bitmap result) {
-	            mImageView.setImageBitmap(result);
-	        }
-	    } 
-    */
     
     private void gotoPostActivity()
     {
@@ -142,14 +152,14 @@ public class ConditionAdd extends Activity
    			
    			JSONObject jso = new JSONObject();
    	    	Date now = new Date();
-   	    	try {
    	    		jso.put("uid", client.user.get_uid());
    	    		jso.put("name", client.user.get_name());
    	    		jso.put("type", "trail_condition_update");
    				jso.put("title", mTitle.getText());
    				jso.put("body", mBody.getText());
-   				jso.put("field_condition_rating",  new JSONArray().put(
-   						new JSONObject().put("value", mCheckedCond.getText())));
+   				jso.put("field_condition_rating",  
+   						new JSONArray().put(
+   								new JSONObject().put("value", mCheckedCond.getText())));
    				jso.put("created", now.getTime() / 1000);
    				jso.put("status", 1);
    				bnvp[0] = new BasicNameValuePair("node", jso.toString());
@@ -158,14 +168,9 @@ public class ConditionAdd extends Activity
    				if(client.loggedIn)
    					client.call("node.save", bnvp);
    				else
-   					
    					return false;
    				
-   			} catch (JSONException e) {
-   				// TODO Auto-generated catch block
-   				e.printStackTrace();
-   				return false;
-   			}
+   		
    			
    			return true;
    			
@@ -173,7 +178,11 @@ public class ConditionAdd extends Activity
    			// TODO Auto-generated catch block
    			e.printStackTrace();
    			return false;
-   		}
+   		} catch (JSONException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			return false;
+		}
    		
    	}
     }

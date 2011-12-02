@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome">Welcome to PMBA</string>
+    <string name="app_name">PMBA</string>
+    <string name="sharedpreferences_name">PRDPMBA</string>
+    <string name="SERVER">http://10.0.2.2/?q=services/json</string>
+    <string name="API_KEY">cdfc765c7a59b0a320e8a9aed2282139</string>
+    <string name="DOMAIN">localhost</string>
+    <string name="ALGORITHM">HmacSHA256</string>
+    <string name="SESSION.LIFETIME">30</string>
+    
+    <!-- Conditions Activity -->
+    <string name="d_view_trailConditions">trail_conditions</string>
+    <string name="d_view_limit_trailConditions">5</string>
+    <string name="msg_noConditions"></string>
+    <string name="msg_noConnection">No Connection to Internets!</string>
+    
+    <string name="new_trail_update">New Trail Update</string>
+    <string name="quit">Quit PMBA</string>
+</resources>

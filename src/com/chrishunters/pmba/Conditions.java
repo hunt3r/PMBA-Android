@@ -247,8 +247,6 @@ public class Conditions extends ListActivity {
 		    	 else
 		    		 icon.setImageResource(R.drawable.trailcond_green_icon_64);
 		    	 
-	            // icon.setAdjustViewBounds(true); // set the ImageView bounds to match the Drawable's dimensions
-	            // icon.setLayoutParams(new Gallery.LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT));
 	    	 } catch(Exception e) {
 	    		 e.fillInStackTrace();
 	    	 }
