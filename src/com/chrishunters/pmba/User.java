@@ -6,7 +6,6 @@ import org.json.JSONObject;
 /*"user": {
         "uid": "3",
         "name": "chunter",
-        "pass": "54d68418d3b99f1bdbdf12c8983804e2",
         "mail": "hunter.christopher@gmail.com",
         "mode": "0",
         "sort": "0",
